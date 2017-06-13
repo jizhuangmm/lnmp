@@ -1,8 +1,6 @@
 #!/bin/bash
 ###########
 #环境搭建脚本
-#author:prozhou
-#email:zhoushengzheng@gmail.com
 ###########
 
 ### question
