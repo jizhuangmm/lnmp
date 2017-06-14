@@ -4,7 +4,7 @@ server {
     server_name  127.0.0.1 localhost;
     fastcgi_read_timeout 600;
     fastcgi_send_timeout 600;
-    root /data/www/wwwroot;
+    root /data/www/wwwroot/public;
     index index.php index.html index.htm;
     error_page 404 = 404.html;
 
