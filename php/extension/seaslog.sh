@@ -3,7 +3,7 @@
 case $php_version in
      5.3.29)
         mkdir -p $install_dir/server/php/lib/php/extensions/no-debug-non-zts-20090626
-        if [ ! -f yaf-3.0.4.tgz ];then
+        if [ ! -f SeasLog-1.6.9.tgz ];then
              wget http://pecl.php.net/get/SeasLog-1.6.9.tgz
         fi
         tar zxvf SeasLog-1.6.9.tgz
@@ -31,7 +31,7 @@ case $php_version in
         ;;
      5.6.30)
         mkdir -p $install_dir/server/php/lib/php/extensions/no-debug-non-zts-20090626
-        if [ ! -f yaf-3.0.4.tgz ];then
+        if [ ! -f SeasLog-1.6.9.tgz ];then
              wget http://pecl.php.net/get/SeasLog-1.6.9.tgz
         fi
         tar zxvf SeasLog-1.6.9.tgz
@@ -59,7 +59,7 @@ case $php_version in
         ;;
      7.1.3)
         mkdir -p $install_dir/server/php/lib/php/extensions/no-debug-non-zts-20090626
-        if [ ! -f yaf-3.0.4.tgz ];then
+        if [ ! -f SeasLog-1.6.9.tgz ];then
              wget http://pecl.php.net/get/SeasLog-1.6.9.tgz
         fi
         tar zxvf SeasLog-1.6.9.tgz
