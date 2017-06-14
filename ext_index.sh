@@ -15,6 +15,7 @@ source php/extension/redis.sh
 source php/extension/zend.sh
 source php/extension/composer.sh
 source php/extension/yaf.sh
+source php/extension/seaslog.sh
 
 
 
