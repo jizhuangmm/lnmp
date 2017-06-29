@@ -13,7 +13,10 @@ case $php_version in
         make
         make install
         cd ..
+        echo "[yaf]" >> $install_dir/server/php/etc/php.ini
         echo "extension=yaf.so" >> $install_dir/server/php/etc/php.ini
+        echo "yaf.use_namespace=1" >> $install_dir/server/php/etc/php.ini
+        echo "yaf.environ=develop" >> $install_dir/server/php/etc/php.ini
         ;;
      5.6.30)
         mkdir -p $install_dir/server/php/lib/php/extensions/no-debug-non-zts-20090626
@@ -27,7 +30,10 @@ case $php_version in
         make
         make install
         cd ..
+        echo "[yaf]" >> $install_dir/server/php/etc/php.ini
         echo "extension=yaf.so" >> $install_dir/server/php/etc/php.ini
+        echo "yaf.use_namespace=1" >> $install_dir/server/php/etc/php.ini
+        echo "yaf.environ=develop" >> $install_dir/server/php/etc/php.ini
         ;;
      7.1.3)
         mkdir -p $install_dir/server/php/lib/php/extensions/no-debug-non-zts-20090626
@@ -41,6 +47,9 @@ case $php_version in
         make
         make install
         cd ..
+        echo "[yaf]" >> $install_dir/server/php/etc/php.ini
         echo "extension=yaf.so" >> $install_dir/server/php/etc/php.ini
+        echo "yaf.use_namespace=1" >> $install_dir/server/php/etc/php.ini
+        echo "yaf.environ=develop" >> $install_dir/server/php/etc/php.ini
         ;;
 esac
